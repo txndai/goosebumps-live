@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /> -->
-    <link href="./assets/css/styles.css" rel="stylesheet" />
-    <title>Let's Build: With Tailwind CSS - Responsive Navbar</title>
-
-    <!-- <style>
-        #menu-toggle:checked+#menu {
-            display: block;
-        }
-    </style> -->
-</head>
+    <head>
+        <title>GooseBumps Collective</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="./assets/css/styles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="./assets/img/GB-icon.png" />
+    </head>
 
 
-<body class="antialiased bg-gray-200 transition ease-in duration-700">
+<body class="h-screen flex flex-col justify-between antialiased bg-gray-700 transition ease-in duration-700 relative">
     <header class=" bg-gray-700 sm:flex">
         <div class="sm:hidden flex items-center justify-between px-4 py-4" >
             <div >
@@ -42,20 +35,35 @@
             </nav>
         
     </header>
-    <div class="px-4">
-        <div class="max-w-3xl bg-white rounded-lg mx-auto my-16 p-16">
-            <h1 class="text-2xl font-medium mb-2">
-                Let's Build: With Tailwind CSS
+
+    <h1 class="py-12 md:text-5xl text-center text-2xl uppercase font-black underline">Coming Soon</h1>
+    <div class="px-4 pt-12 pb-24 ">
+        <!-- <div class="h-64 pb-4">
+            <img class="rounded-lg h-full w-full" src="https://cdn.pixabay.com/photo/2015/04/20/13/28/coffee-731330_960_720.jpg" alt="">
+        </div> -->
+        <div class="bg-gray-600 max-w-3xl bg-white rounded-lg mx-auto mb-16 p-16 shadow-xl">
+            <h1 class="text-3xl font-bold mb-2">
+                This Page/Feature Is Coming <span class="text-yellow-600">Soon</span>
             </h1>
-            <h2 class="font-medium text-sm text-indigo-400 mb-4 uppercase tracking-wide">
-                Responsive Navbar
-            </h2>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo
-            cupiditate molestias atque consequuntur ea quo cumque, odit velit sint
-            similique? Asperiores ratione aperiam tempora, alias corrupti deleniti
-            quaerat molestiae.
+            <p class="mt-4 text-gray-400">This site is under continuous development, so I'll occasionally throw in teasers of whats coming, stay tuned! 
+            </p>
+          <div class="mt-8">
+              <a href="https://linktr.ee/goosebumps" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Contact</a>
+          </div>
         </div>
     </div>
+    <footer class="text-gray-700 body-font w-full">
+        <div class="bg-gray-200">
+          <div class=" container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p class="bg-yellow-200 text-gray-700 text-sm text-center sm:text-left">© 2020 Goosebumps —
+              <a href="https://linktr.ee/goosebumps" class="text-gray-900 ml-1" target="_blank"
+                rel="noopener noreferrer">Social Links</a>
+                
+            </p>
+          </div>
+        </div>
+    </footer>
+
 </body>
 <script src="main.js"></script>
 
