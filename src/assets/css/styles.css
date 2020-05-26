@@ -10,6 +10,15 @@
 
 @tailwind utilities;
 
+@font-face{
+    font-family: 'Circular';
+    src: url(../font/Circular/CircularStd-Black.otf);
+}
+
+body {
+    font-family: Circular;
+}
+
 :root{
     margin:0;
     padding: 0;
