@@ -2,10 +2,28 @@
 
 @tailwind components;
 
+@screen sm{
+    .headerLink:hover{
+        @apply bg-transparent;
+    }
+}
+
 @tailwind utilities;
 
+:root{
+    margin:0;
+    padding: 0;
+}
+
 #heroText{
-    top: 30%
+    top: 30%;
+}
+
+#heroRapper{
+    background-image: url(/assets/img/danny-howe-vESk46kcm9g-unsplash.jpg);
+    background-position: center;
+    background-size: cover; 
+    
 }
 
 @media only screen and (min-width: 1024px) {
@@ -14,6 +32,9 @@
     }
   }
 
+  .overlay{
+      background-color: rgba(0, 0, 0, 0.267);
+  }
 
 
 .hero{
