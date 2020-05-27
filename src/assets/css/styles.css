@@ -8,15 +8,24 @@
     }
 }
 
+.card{
+    @apply min-w-sm;
+    @apply max-w-eighty;
+}
+
 @tailwind utilities;
 
 @font-face{
     font-family: 'Circular';
+    src: url(../font/Circular/CircularStd-Book.otf);
+}
+@font-face{
+    font-family: 'Circular-bold';
     src: url(../font/Circular/CircularStd-Black.otf);
 }
 
 body {
-    font-family: Circular;
+    font-family: 'Circular';
 }
 
 :root{
@@ -26,6 +35,7 @@ body {
 
 #heroText{
     top: 30%;
+    font-family: 'Circular-bold';
 }
 
 #heroRapper{
@@ -50,9 +60,6 @@ body {
     background-color: rgba(92, 92, 92, 0.548);
 }
 
-.card{
-    min-width: 500px;
-}
 
 #cardContainer::-webkit-scrollbar {
     width: 12px;
