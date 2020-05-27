@@ -11,6 +11,7 @@
 .card{
     @apply min-w-sm;
     @apply max-w-eighty;
+    
 }
 
 @tailwind utilities;
