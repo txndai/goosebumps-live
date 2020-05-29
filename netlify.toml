@@ -4,3 +4,6 @@
 
   # Default build command.
   command = "yarn prod"
+
+  [[plugins]]
+package = "@netlify/plugin-sitemap"
