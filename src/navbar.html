@@ -1,64 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>GooseBumps Collective</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link href="./assets/css/styles.css" rel="stylesheet" />
-        <link rel="shortcut icon" href="./assets/img/GB-icon.png" />
-    </head>
+<head>
+    <title>GooseBumps Collective</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/img/GB-icon.png" />
+</head>
 
 
-<body class="h-screen flex flex-col justify-between antialiased bg-gray-700 transition ease-in duration-700 relative">
+<body class="h-full flex flex-col justify-between antialiased bg-gray-700 transition ease-in duration-700 relative">
     <header class=" bg-gray-700 sm:flex">
-        <div class="sm:hidden flex items-center justify-between px-4 py-4" >
-            <div >
+        <div class="sm:hidden flex items-center justify-between px-4 py-4">
+            <div>
                 <a href="index.html"><img class="w-8 h-auto" src="./assets/img/GB-icon.png" alt="workting"></a>
             </div>
             <div class="sm:hidden">
-                <button id="menuButton" type="button" class="flex flex-row justify-center  text-white focus:outline-none w-10 h-10">
+                <button id="menuButton" type="button"
+                    class="flex flex-row justify-center  text-white focus:outline-none w-10 h-10">
                     <img class="h-auto w-8" src="./assets/icons/more.svg" alt="">
-                    
+
                 </button>
             </div>
         </div>
-        
-        <nav id="menuLinks" class="text-right w-full sm:flex sm:flex-wrap sm:flex-row sm:items-center sm:justify-center sm:px-4 sm:pt-2 px-2 pt-2 pb-4 transition ease-in duration-700 sm:text-base flex flex-col justify-end">
-          <a class="text-right p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-overlay px-auto " href="index.html">Home</a>
-          <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-overlay" href="soon.html" style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)" title="Coming soon!">Music</a>
-          <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 sm:flex hover:text-gray-500 hover:bg-overlay hidden" href="index.html">
-              <img class="w-12 h-auto" src="./assets/icons/GB-icon.png" alt="">
-          </a>
-          <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-overlay" href="soon.html" style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)" title="Coming soon!" >Moodboard</a>
-          <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-overlay" href="about.html">About</a> 
-            </nav>
-        
+
+        <nav id="menuLinks"
+            class="text-right w-full sm:flex sm:flex-wrap sm:flex-row sm:items-center sm:justify-center sm:px-4 sm:pt-2 px-2 pt-2 pb-4 transition ease-in duration-700 sm:text-base flex flex-col justify-end">
+            <a class="text-right p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-overlay px-auto "
+                href="index.html">Home</a>
+            <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-overlay"
+                href="soon.html" style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)"
+                title="Coming soon!">Music</a>
+            <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 sm:flex hover:text-gray-500 hover:bg-overlay hidden"
+                href="index.html">
+                <img class="w-12 h-auto" src="./assets/icons/GB-icon.png" alt="">
+            </a>
+            <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-overlay"
+                href="soon.html" style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)"
+                title="Coming soon!">Moodboard</a>
+            <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-overlay"
+                href="about.html">About</a>
+        </nav>
+
     </header>
 
     <h1 class="py-12 md:text-5xl text-center text-2xl uppercase font-black underline">Coming Soon</h1>
-    <div class="px-4 pt-12 pb-24 ">
-        
-        <div class="bg-gray-600 max-w-3xl bg-white rounded-lg mx-auto mb-16 p-16 shadow-xl">
-            <h1 class="text-3xl font-bold mb-2">
-                This Page/Feature Is Coming <span class="text-yellow-600">Soon</span>
-            </h1>
-            <p class="mt-4 text-gray-400">This site is under continuous development, so I'll occasionally throw in teasers of whats coming, stay tuned! 
-            </p>
-          <div class="mt-8">
-              <a href="https://linktr.ee/goosebumps" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Contact</a>
-          </div>
+
+    <div class="mx-8 ">
+        <div
+            class="portfolioWrapper h-full  py-5 flex flex-col-reverse justify-between md:flex-row  bg-gray-600 max-w-xs md:max-w-3xl bg-white rounded-lg mx-auto mb-16 md:p-12 shadow-xl">
+            <div class="portfolioText text-center md:text-left md:w-8/12 mx-auto">
+                <h1 class="text-2xl md:text-3xl font-bold mb-2">
+                    Furnitures<span class="text-yellow-600">2</span>suit
+                </h1>
+                <p class="mt-4 text-gray-400">This site is under continuous development, so I'll occasionally throw in
+                    teasers of whats coming, stay tuned!
+                </p>
+                <div class="mt-8 w-full flex flex-row flex-wrap md:justify-start justify-center mx-auto">
+                    <a href="https://linktr.ee/goosebumps"
+                        class="bg-gray-900 text-gray-100 px-5 mb-3 mr-4 py-2 font-semibold rounded">Wordpress</a>
+                    <a href="https://linktr.ee/goosebumps"
+                        class="bg-gray-900 text-gray-100 px-5 mb-3  mr-4 py-2 font-semibold rounded">CSS</a>
+                    <a href="https://linktr.ee/goosebumps"
+                        class="bg-gray-900 text-gray-100 px-5 mb-3 mr-4 py-2 font-semibold rounded">E-Commerce</a>
+                </div>
+            </div>
+            <div class="md:w-4/12 m-auto max-w-sm md:h-auto "><img class="m-auto max-h-xs  md:w-auto"
+                        src="./assets/img/portfolio-logos/furniture-logo.png" alt="" srcset=""></div>
         </div>
+        
     </div>
-    <footer class="text-gray-700 body-font w-full">
+
+    <footer class="text-gray-700  body-font w-full">
         <div class="bg-gray-200">
-          <div class=" container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p class="bg-yellow-200 text-gray-700 text-sm text-center sm:text-left">© 2020 Goosebumps —
-              <a href="https://linktr.ee/goosebumps" class="text-gray-900 ml-1" target="_blank"
-                rel="noopener noreferrer">Social Links</a>
-                
-            </p>
-          </div>
+            <div class=" container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="bg-yellow-200 text-gray-700 text-sm text-center sm:text-left">© 2020 Goosebumps —
+                    <a href="https://linktr.ee/goosebumps" class="text-gray-900 ml-1" target="_blank"
+                        rel="noopener noreferrer">Social Links</a>
+
+                </p>
+            </div>
         </div>
     </footer>
 
