@@ -13,6 +13,10 @@
     @apply max-w-eighty;
     
 }
+.card-portfolio{
+    @apply min-w-sm;    
+}
+
 
 @tailwind utilities;
 
