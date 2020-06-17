@@ -46,7 +46,8 @@ body {
 #heroRapper{
     background-image: url(/assets/img/danny-howe-vESk46kcm9g-unsplash.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
+    background-color: black;
     
 }
 
